@@ -1,0 +1,47 @@
+html, body {
+    background-color: #01796F;
+    /* color: #fff; */
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    scroll-behavior: smooth;
+}
+
+#header {
+    width: 100%;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5); */
+    z-index: 10;
+    position: relative;
+}
+
+img.rounded-circle.profile-pic {
+    max-width: 250px !important;
+    min-width: 100px;
+    height: auto;
+    display: inline-block;
+    max-width: 170px !important;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-image: initial;
+}
+
+.content {
+    margin: 50px 50px;
+}
+
+.jumbotron{
+    margin-bottom: 0;
+    padding: 4rem 1rem;
+}
+
+.fa {
+    color: #000;
+    padding: 0.7rem;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
