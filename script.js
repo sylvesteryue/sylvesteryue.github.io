@@ -13,8 +13,6 @@ TextRotate.prototype.tick = function () {
     var i = this.index % this.toRotate.length;
     var fullText  = this.toRotate[i];
 
-    console.log(fullText)
-
     if(this.isDeleting) {
         this.text = fullText.substring(0, this.text.length - 1);
     } else {
@@ -54,3 +52,13 @@ window.onload = function() {
         }
     }
 }
+
+//script for fade in nav bar
+
+// window.addEventListener("scroll", function() {
+//     if(window.scrollY > 500) {
+//         $('.navbar').fadeOut();
+//     } else {
+//         $('.navbar').fadeIn();
+//     }
+// }, false);  
